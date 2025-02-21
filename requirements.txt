@@ -1,0 +1,14 @@
+pandas~=2.2.1
+numpy~=1.26.4
+matplotlib~=3.8.0
+spiceypy~=6.0.0
+imageio~=2.34.1
+pyvims~=1.0.4
+scipy~=1.12.0
+scikit-image~=0.24.0
+requests~=2.31.0
+beautifulsoup4~=4.12.3
+miepython~=2.5.3
+plotly~=5.19.0
+moviepy~=1.0.3
+pillow~=10.2.0
