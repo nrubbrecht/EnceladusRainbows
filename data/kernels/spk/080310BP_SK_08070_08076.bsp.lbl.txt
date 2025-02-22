@@ -1,0 +1,151 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "080310BP_SK_08070_08076.xsp"
+PRODUCT_CREATION_TIME        = 2008-03-10T10:04:18
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2008-03-08T19:04:55
+STOP_TIME                    = 2008-03-16T17:58:55
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; bp_sk.bsp LOG FILE
+;
+; Created 2008-03-10/10:04:09.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+LEAPSECONDS_FILE    = /cnav/inputs/naif/latest.tls
+SPK_FILE            = bp_sk.bsp
+  INCLUDE_TEXT_FILE = spk_comments_bp_sk.txt
+  INCLUDE_TEXT_FILE = Readme
+  SOURCE_NIO_FILE   = /cnav/OD/deliveries/080309_060E3/p.nio
+    BODIES          = -82
+    BEGIN_TIME      = CAL-ET 2008 MAR 08 19:06:00.000
+    END_TIME        = CAL-ET 2008 MAR 16 18:00:00.000
+ 
+; END NIOSPK COMMANDS
+ 
+% template version $Revision: 1.13 $ $Date: 2006/08/18 20:07:09 $
+ 
+-
+ 
+For OTM-148-BU based upon OD solution 080309_060E3.
+This file is invalid after 16-MAR-2008 18:00:00 ET or execution of subsequent maneuvers.
+This file does not include OTM-148-BU or its effects.  Maneuvers prior to OTM-148-BU are included.
+This file is a spacecraft ephemeris only.
+This file should only be used in case OTM-148-BU is NOT implemented.
+ 
+-
+ 
+FILENAME:  080310BP_SK_08070_08076.BSP
+ 
+PURPOSE OF DELIVERY:  OTM-148-BU (MAS ID J148_f)
+ 
+DELIVERY DATE: 080310
+ 
+PLANETARY EPHEMERIS USED:  from OD delivery
+ 
+SATELLITE/ASTEROID/ROCK EPHEMERIS USED:  from OD delivery
+ 
+START EPOCH OF FILE:  8-MAR-2008 19:06:00.0 ET SCET
+END EPOCH OF FILE:  16-MAR-2008 18:00:00 ET SCET
+ 
+------ COMMENTS FROM NAV/MVR FOR OTM-148-BU J148_f
+ 
+By:  Cassini-Huygens Navigation Team
+ 
+Profile file:       MPF_J148_f_080309_060E3
+ 
+Maneuver Start:     11-MAR-2008 07:06:00.000 UTC SCET
+ 
+------ COMMENTS FROM NAV/OD FOR DELIVERY 080309_060E3
+ 
+ 
+--------------------------------------------------------------------------------
+ 
+DELIVERY NAME: 080309_060E3
+ 
+BY:  Daniel W. Parcher
+ 
+DATE: March 09, 2008
+ 
+PURPOSE OF DELIVERY: Final OD Delivery for OTM148 BU
+ 
+ORIGINAL DIRECTORY: /cnav/OD/ops/060E3/epoch_080214/otm148/080309 case 9
+ 
+COMMENTS:
+  Epoch of arc is 14-FEB-2008 18:00:00.000000000
+  Spacecraft a priori state and covariance from sat264 delivery
+  Spacecraft State covariance with scale factor of 5
+  Satellite/planet Covariance sat264
+  2-way Doppler and Range through
+  Optical Data through
+  Weights by pass for F2 and SRA
+ 
+SMALL FORCES:
+  SMFDV001 16-FEB-2008 07:43:09.3
+  SMFDV002 17-FEB-2008 08:58:05.5
+  SMFDV003 19-FEB-2008 07:56:48.6
+  SMFDV004 19-FEB-2008 09:32:51.9
+  SMFDV005 19-FEB-2008 23:04:48.3
+  SMFDV006 21-FEB-2008 06:10:28.9
+  SMFDV008 21-FEB-2008 10:13:16.4
+  SMFDV009 22-FEB-2008 16:50:51.0
+  SMFDV010 22-FEB-2008 19:01:16.2
+  SMFDV011 01-MAR-2008 22:17:51.1
+  SMFDV012 01-MAR-2008 23:51:49.5
+  SMFDV013 02-MAR-2008 00:36:40.2
+  SMFDV014 03-MAR-2008 07:48:28.1
+  SMFDV015 07-MAR-2008 06:45:50.3
+  SMFDV016 07-MAR-2008 08:12:43.2
+ 
+MANEUVERS
+  OTM145 Estimated with Telemetry Values and Unweighted Uncertainties
+  OTM146 Estimated with Design    Values and Unweighted Uncertainties
+  OTM147 Estimated with Telemetry Values and Unweighted Uncertainties
+ 
+-------------------------------------------------------------------------------------
+ 
+\beginlabel
+ 
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "080310BP_SK_08070_08076.xsp"
+PRODUCT_CREATION_TIME        = 2008-03-10T10:04:18
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2008-03-08T19:04:55
+STOP_TIME                    = 2008-03-16T17:58:55
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+\endlabel
+ 
+ 
+Brief.  Version: 2.2.0        (SPICE Toolkit N0058)
+ 
+ 
+Summary for: 080310BP_SK_08070_08076.bsp
+ 
+Bodies       Start of Interval (ET)          End of Interval (ET)
+-------      -----------------------------   -----------------------------
+-82 CASSINI  2008 MAR 08 19:06:00.000        2008 MAR 16 18:00:00.000

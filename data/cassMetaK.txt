@@ -20,8 +20,6 @@
                        'kernels/spk/151019AP_SK_15290_15305.bsp',
                        'kernels/spk/151115AP_SK_15314_15359.bsp',
                        'kernels/spk/sat441.bsp',
-                       'kernels/spk/sat452.bsp',
-                       'kernels/spk/sat453.bsp',
                        'kernels/spk/180927AP_RE_90165_18018.bsp',
                        'kernels/spk/140809BP_IRRE_00256_25017.bsp',
                        'kernels/spk/200128RU_SCPSE_15180_15240.bsp',

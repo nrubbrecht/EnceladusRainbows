@@ -1,0 +1,102 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "080806AP_SK_08138_10182.xsp"
+PRODUCT_CREATION_TIME        = 2008-08-06T18:14:53
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2008-05-17T01:19:59
+STOP_TIME                    = 2010-07-01T11:58:56
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; 080806AP_SK_08138_10182.BSP LOG FILE
+;
+; Created 2008-08-06/18:14:52.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+LEAPSECONDS_FILE    = /cnav/inputs/naif/naif0009.tls
+SPK_FILE            = 080806AP_SK_08138_10182.BSP
+  SPK_LOG_FILE      = 080806AP_SK_08138_10182.log
+  INCLUDE_TEXT_FILE = 080806AP_comments.txt
+  SOURCE_NIO_FILE   = 080806AP_SK_08138_10182.NIO
+    BODIES          = -82
+    BEGIN_TIME      = CAL-ET 2008 MAY 17 01:21:04.000
+    END_TIME        = CAL-ET 2010 JUL 01 12:00:00.999
+ 
+; END NIOSPK COMMANDS
+ 
+FILENAMES:  080806AP_SK_08138_10182.XSP, 080806AP_PE_08138_10182.XSP, 080806SP_SE_08138_10182.XSP
+ 
+PURPOSE OF DELIVERY:
+ 
+ 
+DELIVERED BY:  Emily Gist; Tour design by Brent Buffington/"Updated the leapseconds kernal to include the January 2009 leapsecond."
+ 
+FILE USAGE RESTRICTIONS:    Use for planning for span of file.
+ 
+PLANETARY EPHEMERIS USED:  080806AP_PE_08138_10182.BSP
+ 
+SATELLITE/ASTEROID/ROCK EPHEMERIS USED: 080806SP_SE_08138_10182.BSP
+ 
+START EPOCH:  17-MAY-2008 01:19:58.815 UTC
+ 
+END EPOCH:  01-Jul-2010 11:58:54.815 UTC
+ 
+--------------------------------------------------------------------------------
+ 
+TRAJECTORY COMMENTS:
+ 
+ 
+--------------------------------------------------------------------------------
+ 
+ORBIT DETERMINATION COMMENTS:
+ 
+ 
+--------------------------------------------------------------------------------
+ 
+ORBIT DETERMINATION COMMENTS:
+ 
+ 
+\beginlabel
+ 
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "080806AP_SK_08138_10182.xsp"
+PRODUCT_CREATION_TIME        = 2008-08-06T18:14:53
+PRODUCER_ID                  = "CASSINI_NAV_TEAM"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2008-05-17T01:19:59
+STOP_TIME                    = 2010-07-01T11:58:56
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+\endlabel
+ 
+ 
+Brief.  Version: 2.2.0        (SPICE Toolkit N0058)
+ 
+ 
+Summary for: 080806AP_SK_08138_10182.bsp
+ 
+Bodies       Start of Interval (ET)          End of Interval (ET)
+-------      -----------------------------   -----------------------------
+-82 CASSINI  2008 MAY 17 01:21:04.000        2010 JUL 01 12:00:00.999

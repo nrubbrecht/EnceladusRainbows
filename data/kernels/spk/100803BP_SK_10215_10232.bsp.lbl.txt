@@ -1,0 +1,153 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "100803BP_SK_10215_10232.xsp"
+PRODUCT_CREATION_TIME        = 2010-08-03T11:23:46
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2010-08-03T11:20:16
+STOP_TIME                    = 2010-08-20T07:58:55
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; bp_sk.bsp LOG FILE
+;
+; Created 2010-08-03/11:23:41.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+LEAPSECONDS_FILE    = /cnav/inputs/naif/latest.tls
+SPK_FILE            = bp_sk.bsp
+  INCLUDE_TEXT_FILE = spk_comments_bp_sk.txt
+  INCLUDE_TEXT_FILE = Readme
+  SOURCE_NIO_FILE   = /cnav/OD/deliveries/100803_135E11/p.nio
+    BODIES          = -82
+    BEGIN_TIME      = CAL-ET 2010 AUG 03 11:21:20.898
+    END_TIME        = CAL-ET 2010 AUG 20 08:00:00.000
+ 
+; END NIOSPK COMMANDS
+ 
+% template version $Revision: 1.13 $ $Date: 2006/08/18 20:07:09 $
+ 
+-
+ 
+For OTM-259 based upon OD solution 100803_135E11.
+This file is invalid after 20-AUG-2010 08:00:00.0000 ET or execution of subsequent maneuvers.
+This file does not include OTM-259 or its effects.  Maneuvers prior to OTM-259 are included.
+This file is a spacecraft ephemeris only.
+This file should only be used in case OTM-259 is NOT implemented.
+ 
+-
+ 
+FILENAME:  100803BP_SK_10215_10232.BSP
+ 
+PURPOSE OF DELIVERY:  OTM-259 (MAS ID O259_d)
+ 
+DELIVERY DATE: 100803
+ 
+PLANETARY EPHEMERIS USED:  from OD delivery
+ 
+SATELLITE/ASTEROID/ROCK EPHEMERIS USED:  from OD delivery
+ 
+START EPOCH OF FILE:  3-AUG-2010 11:21:20.9 ET SCET
+END EPOCH OF FILE:  20-AUG-2010 08:00:00.0000 ET SCET
+ 
+------ COMMENTS FROM NAV/MVR FOR OTM-259 O259_d
+ 
+By:  Cassini-Huygens Navigation Team
+ 
+Profile file:       MPF_O259_d_100803_135E11
+ 
+Maneuver Start:     10-AUG-2010 22:35:00.000 UTC SCET
+ 
+------ COMMENTS FROM NAV/OD FOR DELIVERY 100803_135E11
+ 
+ 
+-----------------------------------------------------------------------------
+ 
+DELIVERY NAME: 100803_135E11
+ 
+BY:  Kevin Criddle
+ 
+DATE: August 03, 2010
+ 
+PURPOSE OF DELIVERY: Preliminary OD Delivery for OTM259
+ 
+ORIGINAL DIRECTORY: /cnav/OD/ops/135E11/epoch_100627/otm259/100803 case 7
+ 
+COMMENTS:
+  Epoch of arc is 27-JUN-2010 12:00:00.0 ET
+  Spacecraft a priori state and covariance from previous arc
+  Spacecraft State covariance with scale factor of 5
+  Satellite/planet Covariance based on sat335
+  2-way Doppler and Range through 03-AUG-2010 17:00
+  Optical Data through 02-JUN-2010 23:35 (none in this arc)
+  Weights by pass for F2 and SRA
+SMALL FORCES:
+  SMFDV001 30-JUN-2010 07:01:19.3 RWA spindown before OTM-255
+  SMFDV002 30-JUN-2010 08:29:42.6 RWA spinup after OTM-255
+  SMFDV003 30-JUN-2010 09:17:10.7 Redundant post-OTM background sequence RWA bias
+  SMFDV004 02-JUL-2010 10:31:15.5 RWA bias (using y-thrusters)
+  SMFDV005 03-JUL-2010 23:40:21.5 RWA bias before OTM-256
+  SMFDV006 04-JUL-2010 02:17:03.3 RWA bias after OTM-256
+  SMFDV007 04-JUL-2010 19:05:11.8 RWA bias (standard)
+  SMFDV008 05-JUL-2010 23:58:58.6 RWA bias (using y-thrusters)
+  SMFDV010 07-JUL-2010 00:57:44.4 RWA spinup after T71-flyby
+  SMFDV011 10-JUL-2010 06:18:15.8 RWA spindown before OTM-257
+  SMFDV012 10-JUL-2010 07:39:04.2 RWA spinup after OTM-257
+  SMFDV013 10-JUL-2010 08:31:17.7 Redundant post-OTM background sequence RWA bias
+  SMFDV014 18-JUL-2010 05:57:50.7 RWA spindown before OTM-258
+  SMFDV015 18-JUL-2010 07:30:28.7 RWA spinup after OTM-258
+  SMFDV016 18-JUL-2010 08:13:05.7 Redundant post-OTM background sequence RWA bias
+  SMFDV017 23-JUL-2010 16:44:45.6 RWA bias (using y-thrusters)
+  SMFDV018 26-JUL-2010 00:26:08.5 RWA bias (using y-thrusters)
+  SMFDV019 30-JUL-2010 08:35:07.5 RWA bias (using y-thrusters)
+  SMFDV020 01-AUG-2010 14:42:25.3 RWA bias
+MANEUVERS
+  OTM-255, 30-JUN-2010  6.25 m/s ME, telemetry-based pointing model
+  OTM-256, 04-JUL-2010 22.8 mm/s RCS,telemetry-based pointing model
+  OTM-257, 10-JUL-2010  0.84 m/s ME, telemetry-based pointing model
+  OTM-258, 18-JUL-2010  6.77 m/s ME, telemetry-based pointing model
+-------------------------------------------------------------------------------
+ 
+\beginlabel
+ 
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "100803BP_SK_10215_10232.xsp"
+PRODUCT_CREATION_TIME        = 2010-08-03T11:23:46
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2010-08-03T11:20:16
+STOP_TIME                    = 2010-08-20T07:58:55
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+\endlabel
+ 
+ 
+Brief.  Version: 2.2.0        (SPICE Toolkit N0058)
+ 
+ 
+Summary for: 100803BP_SK_10215_10232.bsp
+ 
+Bodies       Start of Interval (ET)          End of Interval (ET)
+-------      -----------------------------   -----------------------------
+-82 CASSINI  2010 AUG 03 11:21:20.899        2010 AUG 20 08:00:00.000

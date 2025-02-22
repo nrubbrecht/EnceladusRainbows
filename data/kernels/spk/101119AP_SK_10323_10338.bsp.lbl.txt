@@ -1,0 +1,137 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "101119AP_SK_10323_10338.xsp"
+PRODUCT_CREATION_TIME        = 2010-11-19T11:24:43
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2010-11-19T11:03:55
+STOP_TIME                    = 2010-12-04T11:58:55
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; ap_sk.bsp LOG FILE
+;
+; Created 2010-11-19/11:24:38.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+LEAPSECONDS_FILE    = /cnav/inputs/naif/latest.tls
+SPK_FILE            = ap_sk.bsp
+  INCLUDE_TEXT_FILE = spk_comments_ap_sk.txt
+  INCLUDE_TEXT_FILE = Readme
+SOURCE_NIO_FILE = /cnav/Man/working/mops-mas/operations/OTM267/O267_i_101119/p_with_mvr.nio
+    BODIES          = -82
+    BEGIN_TIME      = CAL-ET 2010 NOV 19 11:04:59.898
+    END_TIME        = CAL-ET 2010 DEC 04 12:00:00.000
+ 
+; END NIOSPK COMMANDS
+ 
+% template version $Revision: 1.14 $ $Date: 2006/08/18 20:07:00 $
+ 
+-
+-
+ 
+For OTM-267 based upon OD solution 101119_141E12.
+This file is invalid after 4-DEC-2010 12:00:00 ET or execution of subsequent maneuvers.
+This file accounts for maneuvers up to and including OTM-267.
+This file is a spacecraft ephemeris only.
+ 
+-
+ 
+FILENAME:  101119AP_SK_10323_10338.BSP
+ 
+PURPOSE OF DELIVERY:  OTM-267 (MAS ID O267_i)
+ 
+DELIVERY DATE: 101119
+ 
+PLANETARY EPHEMERIS USED:  from OD delivery
+ 
+SATELLITE/ASTEROID/ROCK EPHEMERIS USED:  from OD delivery
+ 
+START EPOCH OF FILE:  19-NOV-2010 11:04:59.9 ET SCET
+END EPOCH OF FILE:  4-DEC-2010 12:00:00 ET SCET
+ 
+------ COMMENTS FROM NAV/MVR FOR OTM-267 O267_i
+ 
+By:  Cassini-Huygens Navigation Team
+ 
+Profile file:       MPF_O267_i_101119_141E12
+ 
+Maneuver Start:     21-NOV-2010 23:05:00.000 UTC SCET
+ 
+------ COMMENTS FROM NAV/OD FOR DELIVERY 101119_141E12
+ 
+ 
+--------------------------------------------------------------------------------
+ 
+DELIVERY NAME: 101119_141E12
+ 
+BY:  Brent Buffington
+ 
+DATE: November 19, 2010
+ 
+PURPOSE OF DELIVERY: Final OD Delivery for OTM267
+ 
+ORIGINAL DIRECTORY: /cnav/OD/ops/141E12/epoch_101029/otm267/101119_acc case 12
+ 
+COMMENTS:
+  Epoch of arc is 29-OCT-2010 06:00:00.000000000
+  Spacecraft a priori state and covariance from previous arc
+  Spacecraft State covariance with scale factor of 5
+  Satellite/planet Covariance based on sat337
+  2-way Doppler and Range through 19-NOV-2010 13:46
+  Optical Data through 23-OCT-2010 11:16
+  Weights by pass for F2 and SRA
+ 
+SMALL FORCES:
+  SMFDV001 01-NOV-2010 18:24:37.3
+  SMFDV002 01-NOV-2010 22:50:24.6
+  SMFDV003 02-NOV-2010 22:28:50.0
+ 
+MANEUVERS
+  OTM265 - 8-NOV-2010 09:49:00 - RCS 172.1 m/s
+ 
+-------------------------------------------------------------------------------------
+ 
+\beginlabel
+ 
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "101119AP_SK_10323_10338.xsp"
+PRODUCT_CREATION_TIME        = 2010-11-19T11:24:43
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2010-11-19T11:03:55
+STOP_TIME                    = 2010-12-04T11:58:55
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+\endlabel
+ 
+ 
+Brief.  Version: 2.2.0        (SPICE Toolkit N0058)
+ 
+ 
+Summary for: 101119AP_SK_10323_10338.bsp
+ 
+Bodies       Start of Interval (ET)          End of Interval (ET)
+-------      -----------------------------   -----------------------------
+-82 CASSINI  2010 NOV 19 11:04:59.899        2010 DEC 04 12:00:00.000

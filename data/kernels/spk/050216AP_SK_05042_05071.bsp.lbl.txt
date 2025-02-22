@@ -1,0 +1,136 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "050216AP_SK_05042_05071.xsp"
+PRODUCT_CREATION_TIME        = 2005-02-16T22:36:36
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2005-02-11T00:00:00
+STOP_TIME                    = 2005-03-12T09:09:05
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; ap_sk.bsp LOG FILE
+;
+; Created 2005-02-16/22:36:19.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+LEAPSECONDS_FILE    = /cnav/inputs/naif/naif0007.tls
+SPK_FILE            = ap_sk.bsp
+  INCLUDE_TEXT_FILE = spk_comments_ap_sk.txt
+  INCLUDE_TEXT_FILE = Readme
+  SOURCE_NIO_FILE   = /cnav/Man/working/MAS/offline/prime/O014_o/p_with_mvr.nio
+    BODIES          = -82
+    BEGIN_TIME      = CAL-ET 2005 FEB 11 00:01:04.185
+    END_TIME        = CAL-ET 2005 MAR 12 09:10:09.185
+ 
+; END NIOSPK COMMANDS
+ 
+% template version $Revision: 1.10 $ $Date: 2004/05/20 18:40:53 $
+ 
+Files that include OTM-014 also include OTM-015 as they are designed together
+ 
+For OTM-014 based upon OD solution 050216a_004E1.
+This file is invalid after 12-MAR-2005 09:09:05.0 UTC or execution of subsequent maneuvers.
+This file accounts for maneuvers up to and including OTM-014.
+This file is a spacecraft ephemeris only.
+ 
+-
+ 
+FILENAME:  050216AP_SK_05042_05071.BSP
+ 
+PURPOSE OF DELIVERY:  OTM-014 (MAS ID O014_o)
+ 
+DELIVERY DATE: 050216
+ 
+PLANETARY EPHEMERIS USED:  from OD delivery
+ 
+SATELLITE/ASTEROID/ROCK EPHEMERIS USED:  from OD delivery
+ 
+START EPOCH OF FILE:  11-FEB-2005 00:00:00 UTC SCET
+END EPOCH OF FILE:  12-MAR-2005 09:09:05.0 UTC SCET
+ 
+------ COMMENTS FROM NAV/MVR FOR OTM-014 O014_o
+ 
+By:  Cassini-Huygens Navigation Team
+ 
+Profile file:       MPF_O014_o_050216a_004E1
+ 
+Maneuver Start:     18-FEB-2005 06:00:00.000 UTC SCET
+ 
+------ COMMENTS FROM NAV/OD FOR DELIVERY 050216a_004E1
+ 
+ 
+--------------------------------------------------------------------------------
+ 
+DELIVERY NAME: 050216a_004E1
+ 
+BY: Jason Stauch
+ 
+DATE: February 16, 2005
+ 
+PURPOSE OF DELIVERY: Final OTM014 OD delivery
+ 
+ORIGINAL DIRECTORY: /cnav/OD/ops/004E1/otm014/epoch_050201/050216a  case 7
+ 
+COMMENTS:
+  Epoch of arc is February 1, 2005
+  Used satellite/planet ephemeris from 003T3/Sat 192
+  2-way Doppler and Range through 16-FEB-2005 22:56:00
+  Optical Data through 13-FEB-2005 23:38:00
+  Used covariance scale factor of 1 for satellite/planet,
+  State covariance with scale factor of 5
+  Weights by pass for F2 and SRA
+ 
+  OTM013 Estimated with DV, RA, Dec, and Thrust
+ 
+  T3 modeled with miscelleneous accelerations from AACS FSDS run
+    Loosened stochastics for T3 RCS activities
+ 
+  Removed the following Opnavs:
+    Hyperi:  5-Feb-2005, Large residuals, probably due to orientation problem
+    Encela: 12-Feb-2005, Enceladus overexposed
+--------------------------------------------------------------------------------------
+ 
+\beginlabel
+ 
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "050216AP_SK_05042_05071.xsp"
+PRODUCT_CREATION_TIME        = 2005-02-16T22:36:36
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2005-02-11T00:00:00
+STOP_TIME                    = 2005-03-12T09:09:05
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "UNK"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+\endlabel
+ 
+ 
+Brief.  Version: 2.2.0        (SPICE Toolkit N0055)
+ 
+ 
+Summary for: 050216AP_SK_05042_05071.bsp
+ 
+Bodies       Start of Interval (ET)          End of Interval (ET)
+-------      -----------------------------   -----------------------------
+-82 CASSINI  2005 FEB 11 00:01:04.185        2005 MAR 12 09:10:09.185

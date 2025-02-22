@@ -1,0 +1,141 @@
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "110927AP_SK_11270_11279.xsp"
+PRODUCT_CREATION_TIME        = 2011-09-27T10:08:51
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2011-09-26T01:00:55
+STOP_TIME                    = 2011-10-06T11:58:55
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+; ap_sk.bsp LOG FILE
+;
+; Created 2011-09-27/10:08:47.00.
+;
+; BEGIN NIOSPK COMMANDS
+ 
+LEAPSECONDS_FILE    = /cnav/inputs/naif/latest.tls
+SPK_FILE            = ap_sk.bsp
+  INCLUDE_TEXT_FILE = spk_comments_ap_sk.txt
+  INCLUDE_TEXT_FILE = Readme
+SOURCE_NIO_FILE = /cnav/Man/working/mops-mas/operations/OTM292/O292_a_110927/p_with_mvr.nio
+    BODIES          = -82
+    BEGIN_TIME      = CAL-ET 2011 SEP 26 01:02:00.000
+    END_TIME        = CAL-ET 2011 OCT 06 12:00:00.000
+ 
+; END NIOSPK COMMANDS
+ 
+% template version $Revision: 1.15 $ $Date: 2011/02/03 21:46:29 $
+ 
+-
+ 
+For OTM-292 based upon OD solution 110927_154E14.
+This file is invalid after 06-OCT-2011 12:00:00 ET or execution of subsequent maneuvers.
+This file accounts for maneuvers up to and including OTM-292.
+This file is a spacecraft ephemeris only.
+ 
+-
+ 
+FILENAME:  110927AP_SK_11270_11279.BSP
+ 
+PURPOSE OF DELIVERY:  OTM-292 (MAS ID O292_a)
+ 
+DELIVERY DATE: 110927
+ 
+PLANETARY EPHEMERIS USED:  from OD delivery
+ 
+SATELLITE/ASTEROID/ROCK EPHEMERIS USED:  from OD delivery
+ 
+START EPOCH OF FILE:  26-SEP-2011 01:02:00.0 ET SCET
+END EPOCH OF FILE:  06-OCT-2011 12:00:00 ET SCET
+ 
+------ COMMENTS FROM NAV/MVR FOR OTM-292 O292_a
+ 
+By:  Cassini-Huygens Navigation Team
+ 
+Profile file:       MPF_O292_a_110927_154E14
+ 
+Maneuver Start:     28-SEP-2011 13:02:00.000 UTC SCET
+ 
+------ COMMENTS FROM NAV/OD FOR DELIVERY 110927_154E14
+ 
+ 
+-------------------------------------------------------------------------------
+DELIVERY NAME: 110927_154E14
+ 
+BY:  Jonathon J Smith
+ 
+DATE: September 27, 2011
+ 
+PURPOSE OF DELIVERY: Final Delivery for OTM292
+ 
+ORIGINAL DIRECTORY: /cnav/OD/ops/154E14/epoch_110903/otm292/110927 case 5
+ 
+COMMENTS:
+  Epoch of arc is  3-SEP-2011 06:00:00.000000000
+  Spacecraft a priori state and covariance from previous arc
+  Spacecraft State covariance with scale factor of 5
+  Satellite/planet Covariance based on sat343
+  2-way Doppler and Range through 27-SEP-2011 16:00
+  Optical Data through 30-AUG-2011 08:01
+  Weights by pass for F2 and SRA
+ 
+SMALL FORCES:
+  SMFDV001 04-SEP-2011 14:34:13.8
+  SMFDV002 06-SEP-2011 14:43:34.6
+  SMFDV003 13-SEP-2011 03:25:32.0
+  SMFDV004 14-SEP-2011 06:42:10.6
+  SMFDV005 20-SEP-2011 02:31:18.4
+  SMFDV006 20-SEP-2011 04:16:56.3
+  SMFDV007 20-SEP-2011 04:55:31.4
+ 
+MANEUVERS
+  OTM289 09-SEP-2011 03:48 Cancelled
+  OTM290 15-SEP-2011 13:48 Cancelled
+  OTM291 20-SEP-2011 03:17 ME 5.05 m/s
+-------------------------------------------------------------------------------
+ 
+\beginlabel
+ 
+MISSION_NAME                 = "CASSINI"
+SPACECRAFT_NAME              = "CASSINI"
+DATA_SET_ID                  = "SPICE_SPK_FILE"
+KERNEL_TYPE_ID               = "SPK"
+PRODUCT_ID                   = "110927AP_SK_11270_11279.xsp"
+PRODUCT_CREATION_TIME        = 2011-09-27T10:08:51
+PRODUCER_ID                  = "CASSINI_NAV"
+MISSION_PHASE_NAME           = "TOUR"
+PRODUCT_VERSION_TYPE         = "PREDICT"
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2011-09-26T01:00:55
+STOP_TIME                    = 2011-10-06T11:58:55
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = "CASSINI"
+INSTRUMENT_NAME              = "N/A"
+INSTRUMENT_ID                = "N/A"
+SOURCE_PRODUCT_ID            = "SEE COMMENTS"
+NOTE                         = "SPICE transfer format SPK file."
+ 
+\endlabel
+ 
+ 
+ 
+BRIEF -- Version 3.0.0, January 14, 2008 -- Toolkit Version N0064
+ 
+ 
+Summary for: 110927AP_SK_11270_11279.bsp
+ 
+Bodies       Start of Interval (ET)          End of Interval (ET)
+-------      -----------------------------   -----------------------------
+-82 CASSINI  2011 SEP 26 01:02:00.000        2011 OCT 06 12:00:00.000
