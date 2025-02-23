@@ -588,7 +588,7 @@ def plot_spice_scene_ring(flyby_name, hours_from_closest_approach, orbit_steps, 
     camera = dict(
     up=dict(x=0, y=0, z=1),
     center=dict(x=0, y=0, z=0),
-    eye=dict(x=-0.5, y=-1, z=0.1))
+    eye=dict(x=-0.7, y=0, z=0.2))
     if d_sight:
         if cs_radius < np.linalg.norm(pos_dio[0]) * 1.2:
             axis_range = [-np.linalg.norm(pos_cas[0]) * 1.2, np.linalg.norm(pos_cas[0]) * 1.2]
