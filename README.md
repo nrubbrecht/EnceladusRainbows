@@ -6,7 +6,7 @@ preprint available at [ArXiv link].
 
 ## Repository Contents
 
-- **`notebooks/`** – Contains the data analysis tools for Cassini's Imaging Science Subsystem (ISS) and Visible Infrared Mapping Spectrometer (VIMS) observations of Enceladus.
+- **`notebooks/`** – Contains the data analysis tools/figures for Cassini's Imaging Science Subsystem (ISS) and Visible Infrared Mapping Spectrometer (VIMS) observations of Enceladus.
 - **`scripts/`** – Includes interactive SPICE-based tools for analyzing Cassini's observation geometries and Enceladus' plume illumination conditions.
 
 ## Interactive Tools
