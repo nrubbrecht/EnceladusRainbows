@@ -151,11 +151,11 @@ def plot_spice_scene_animated(spectrum_str, ice_model_str, flyby_name, hours_fro
 
         Notes:
         - The function requires the SPICE toolkit for trajectory and position calculations.
-        - Various visual aspects of the scene, such as the Sun, Enceladus, and scattering effects, are created using Plotly's graphical capabilities.
+        - Various visual aspects of the scene, such as the Sun, Enceladus, and scattering effects, are created using Plotly's graphical interface.
         """
     # ------------------------------------------------ SPICE ----------------------------------------------
     # projection tool is based in the Enceladus centered reference frame
-    # use casini and sun vectors observed from enceladus
+    # use cassini and sun vectors observed from enceladus
     # in the J2000 frame to minimize movement of the sun -> assume sun position is constant
     print("------------------ SPICE -----------------------")
     METAKR = "../data/cassMetaK.txt"
@@ -649,7 +649,8 @@ def plot_spice_scene_animated(spectrum_str, ice_model_str, flyby_name, hours_fro
             "steps": slider_steps
         }], scene_camera=camera
     )
-    fig.write_html("index.html")
+    # write html
+    # fig.write_html("enc_tool_showcase.html")
 
     # Show figure
     fig.show()
