@@ -649,7 +649,7 @@ def plot_spice_scene_animated(spectrum_str, ice_model_str, flyby_name, hours_fro
             "steps": slider_steps
         }], scene_camera=camera
     )
-    fig.write_html("tool_enc_center_E11.html")
+    fig.write_html("index.html")
 
     # Show figure
     fig.show()
