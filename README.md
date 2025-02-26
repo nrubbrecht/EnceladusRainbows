@@ -2,7 +2,7 @@
 
 This repository provides an overview of the tools used in **Rubbrecht et al. (2025)**,  
 *"Peculiar Rainbows in Saturn's E Ring: Uncovering Luminous Bands Near Enceladus"*,  
-preprint available at [arXiv:2502.18028](https://arxiv.org/abs/2502.18028)].
+preprint available at [arXiv:2502.18028](https://arxiv.org/abs/2502.18028).
 
 ## Repository Contents
 
